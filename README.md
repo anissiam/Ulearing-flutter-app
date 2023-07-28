@@ -6,19 +6,19 @@ A new Flutter projec using BLoC state management
 
 
 # Features 
-onboard screen
-email login
-social media login
-viewing course
-play video course
-upload course from backend
-view multiple teachers couse
-buy course on the front end
-stripe payment
-super admin panel
-teacher admin panel
-chat in user end
-teacher's chat app( a different one)
+- onboard screen
+- email login
+- social media login
+- viewing course
+- play video course
+- upload course from backend
+- view multiple teachers couse
+- buy course on the front end
+- stripe payment
+- super admin panel
+- teacher admin panel
+- chat in user end
+- teacher's chat app( a different one)
 
 # Build
 - Firebase
