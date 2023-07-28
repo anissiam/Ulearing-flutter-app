@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "139306597357",
+    "firebase_url": "https://tomb-raider-e178e.firebaseio.com",
+    "project_id": "tomb-raider-e178e",
+    "storage_bucket": "tomb-raider-e178e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:139306597357:android:f84b9f908b234724cc85e4",
+        "android_client_info": {
+          "package_name": "com.anisdev.learning_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "139306597357-6u4eosblspnt8j4dunp2rmd6ue6r7r0n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxUuH8TtF6PVW4cMZlnnWwB-pvagSCkFs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "139306597357-6u4eosblspnt8j4dunp2rmd6ue6r7r0n.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "139306597357-4efj3bv1kp6dbjc5kugc5sdmqcd33tjc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.chatAppFlutterFlieh"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:139306597357:android:08df43ee1f5e86f2cc85e4",
+        "android_client_info": {
+          "package_name": "com.example.chat_app_flutter_flieh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "139306597357-6u4eosblspnt8j4dunp2rmd6ue6r7r0n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxUuH8TtF6PVW4cMZlnnWwB-pvagSCkFs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "139306597357-6u4eosblspnt8j4dunp2rmd6ue6r7r0n.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "139306597357-4efj3bv1kp6dbjc5kugc5sdmqcd33tjc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.chatAppFlutterFlieh"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
