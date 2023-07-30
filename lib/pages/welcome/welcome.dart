@@ -3,6 +3,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:learning_app/common/values/constant.dart';
+import 'package:learning_app/global.dart';
 import 'package:learning_app/pages/welcome/bloc/welcome_event.dart';
 
 import '../../common/values/colors.dart';
@@ -124,7 +126,9 @@ class _WelcomeState extends State<Welcome> {
               pageController.animateToPage(index,
                   duration: const Duration(milliseconds: 500), curve: Curves.easeIn);
             } else {
-              Navigator.of(context).pushNamedAndRemoveUntil('signIn', (route) => false);
+              Global.storageService.setBool(AppConstants.STORAGE_DEVICE_OPEN_FITSR_TIME, true);
+
+              Navigator.of(context).pushNamedAndRemoveUntil('/sign_in', (route) => false);
             }
           },
           child: Container(

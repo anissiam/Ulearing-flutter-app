@@ -1,4 +1,5 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:learning_app/pages/register/bloc/register_blocs.dart';
 
 import 'sign_in/bloc/sign_in_blocs.dart';
 import 'welcome/bloc/welcome_bloc.dart';
@@ -11,6 +12,9 @@ class AppBlocProvider{
     ),
     BlocProvider(
       create: (context) => SignInBloc(),
+    ),
+    BlocProvider(
+      create: (context) => RegisterBlocs(),
     ),
   ];
 }
