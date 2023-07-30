@@ -1,6 +1,30 @@
 # learning_app
 
-A new Flutter project.
+A new Flutter projec using BLoC state management
+
+![alt text](https://www.dbestech.com/uploads/20230131/49806f6d3e708da7a7975deb5c73cbfb.jpg)
+
+
+# Features 
+- onboard screen
+- email login
+- social media login
+- viewing course
+- play video course
+- upload course from backend
+- view multiple teachers couse
+- buy course on the front end
+- stripe payment
+- super admin panel
+- teacher admin panel
+- chat in user end
+- teacher's chat app( a different one)
+
+# Build
+- Firebase
+- Laravel
+- Bloc state mangment
+- 
 
 ## Getting Started
 
